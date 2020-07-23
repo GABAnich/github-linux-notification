@@ -12,7 +12,7 @@ setInterval(async () => {
   try {
     const { data } = await octokit.request("GET /notifications");
     data.forEach(notification => {
-      exec(`notify-send 'GitHub' '${notification.subject.title}'`);
+      exec(`notify-send '${notification.subject.title}' 'GitHub'`);
     });
   } catch (err) {
     console.log(err);

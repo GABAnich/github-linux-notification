@@ -37,6 +37,11 @@ And grant access to **notifications**.
 ./github-notifications.sh username:token &>/dev/null &
 ```
 
+```bash
+# to run in background (can survive terminal closing)
+nohup ./github-notifications.sh username:token &
+```
+
 ### Icon
 
 In order to have an icon in notifications, you should download one of https://github.com/logos.

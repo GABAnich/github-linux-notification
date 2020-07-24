@@ -11,7 +11,9 @@ do
 	jq '.[] | { title: .subject.title }.title' | \
 	while read i;
 	do
-		eval "notify-send $i 'GitHub'"
+		# without icon
+		# eval "notify-send $i 'GitHub'"
+		eval "notify-send $i 'GitHub' -i Octocat"
 	done;
 	sleep 1m
 done

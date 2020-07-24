@@ -2,6 +2,8 @@
 
 Simple GitHub notificator for linux.
 
+![example](https://github.com/GABAnich/github-linux-notification/blob/master/images/example.png)
+
 ### Install dependency
 
 ```bash

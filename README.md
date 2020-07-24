@@ -45,4 +45,4 @@ nohup ./github-notifications.sh username:token &
 ### Icon
 
 In order to have an icon in notifications, you should download one of https://github.com/logos.
-And then place the icon in /usr/share/icons or /usr/share/[app]/icons.
+Or take from /icons folder. And then place the icon in /usr/share/icons or /usr/share/[app]/icons.

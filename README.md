@@ -35,3 +35,7 @@ And grant access to **notifications**.
 ./github-notifications.sh username:token &>/dev/null &
 ```
 
+### Icon
+
+In order to have an icon in notifications, you should download one of https://github.com/logos.
+And then place the icon in /usr/share/icons or /usr/share/[app]/icons.

@@ -1,6 +1,6 @@
 # github-linux-notification
 
-Simple GitHub notificator for linux.
+Simple GitHub notifier for Linux.
 
 ![example](https://github.com/GABAnich/github-linux-notification/blob/master/images/example.png)
 
